@@ -1,47 +1,9 @@
 <?php
-function sanitizeFormPassword($inputText) {
-    $inputText = strip_tags($inputText);
-    return $inputText;
-}
-
-function sanitizeFormUsername($inputText) {
-    $inputText = strip_tags($inputText);
-    $inputText = str_replace(" ", "", $inputText);
-    return $inputText;
-}
-
-function sanitizeFormString($inputText) {
-    $inputText = strip_tags($inputText);
-    $inputText = str_replace(" ", "", $inputText);
-    $inputText = ucfirst(strtolower($inputText));
-    return $inputText;
-}
-
-
-if (isset($_POST['loginButton'])) {
-    // When login button is pressed
-}
-
-if (isset($_POST['registerButton'])) {
-    // When register button is pressed
-    $username = sanitizeFormUsername($_POST['username']);
-
-    $firstName = sanitizeFormString($_POST['firstName']);
-
-    $lastName = sanitizeFormString($_POST['lastName']);
-
-    $email = sanitizeFormString($_POST['email']);
-
-    $email2 = sanitizeFormString($_POST['email2']);
-
-    $password = sanitizeFormPassword($_POST['password']);
-
-    $password2 = sanitizeFormPassword($_POST['password2']);
-}
-
-
+    include("includes/classes/Account.php");
+    $account = new Account();
+    include("includes/handlers/register-handler.php");
+    include("includes/handlers/login-handler.php");
 ?>
-
 <html>
 <head>
     <title>Welcome to Spotify!</title>
