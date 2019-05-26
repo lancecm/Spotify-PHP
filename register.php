@@ -1,5 +1,6 @@
 <?php
     include("includes/classes/Account.php");
+    include("includes/classes/Constants.php");
     $account = new Account();
     include("includes/handlers/register-handler.php");
     include("includes/handlers/login-handler.php");
@@ -30,18 +31,23 @@
                 Create your free account
             </h2>
             <p>
+                <?php echo $account->getError(Constants::$usernameCharacters); ?>
                 <label for="username">Username</label>
                 <input id="username" name="username" type="text" placeholder="e.g. mingl" required>
             </p>
             <p>
+                <?php echo $account->getError(Constants::$firstNameCharacters); ?>
                 <label for="firstName">First Name</label>
                 <input id="firstName" name="firstName" type="text" placeholder="e.g. Ming" required>
             </p>
             <p>
+                <?php echo $account->getError(Constants::$lastNameCharacters); ?>
                 <label for="lastName">Last Name</label>
                 <input id="lastName" name="lastName" type="text" placeholder="e.g. L" required>
             </p>
             <p>
+                <?php echo $account->getError(Constants::$emailNotMatch); ?>
+                <?php echo $account->getError(Constants::$emailInvalid); ?>
                 <label for="email">Email</label>
                 <input id="email" name="email" type="email" placeholder="e.g. ming@gmail.com" required>
             </p>
@@ -50,6 +56,9 @@
                 <input id="email2" name="email2" type="text" placeholder="e.g. Ming" required>
             </p>
             <p>
+                <?php echo $account->getError(Constants::$passwordDoNotMath); ?>
+                <?php echo $account->getError(Constants::$passwordCharacters); ?>
+                <?php echo $account->getError(Constants::$passwordNotAlphaNewmeric); ?>
                 <label for="password">Password</label>
                 <input id="password" name="password" type="password" placeholder="Your Password" required>
             </p>
