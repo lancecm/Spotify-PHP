@@ -1,5 +1,7 @@
 <?php
-    ob_start();
+    ob_start(); // enable mysql working
+
+    session_start(); // enable session
 
     $timezone = date_default_timezone_set("America/Los_Angeles");
 
