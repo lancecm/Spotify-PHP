@@ -23,12 +23,13 @@
                 Login to your account
             </h2>
             <p>
+                <?php echo $account->getError(Constants::$loginFailed); ?>
                 <label for="loginUsername">Username</label>
-                <input id="loginUsername" name="username" type="text" placeholder="e.g. Ming" required>
+                <input id="loginUsername" name="loginUsername" type="text" placeholder="e.g. Ming" required>
             </p>
             <p>
                 <label for="loginPassword">Password</label>
-                <input id="loginPassword" name="password" type="password" placeholder="Your Password" required>
+                <input id="loginPassword" name="loginPassword" type="password" placeholder="Your Password" required>
             </p>
             <button type="submit" name="loginButton">LOGIN</button>
         </form>
