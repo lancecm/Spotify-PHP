@@ -4,6 +4,7 @@
     $account = new Account();
     include("includes/handlers/register-handler.php");
     include("includes/handlers/login-handler.php");
+    include("includes/config.php");
 
     function getInputValue($name){
         if (isset($_POST[$name])) {
