@@ -57,6 +57,9 @@
             }
 
             // check if username exists
+            //    $stmt = $conn->prepare("SELECT username FROM users WHERE username= ?");
+            //    $stmt->bind_param("s", $username); // Bind to the username variable
+            //    $stmt->execute();
             $checkUsernameQuery = mysqli_query($this->con, "SELECT username FROM users WHERE username='$un'");
             if (mysqli_num_rows($checkUsernameQuery) != 0) {
                 array_push($this->errorArray, Constants::$usernameTaken);
