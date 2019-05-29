@@ -16,8 +16,29 @@
 <head>
     <title>Welcome to Spotify!</title>
     <link rel="stylesheet" type="text/css" href="assets/css/register.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="assets/js/register.js"></script>
 </head>
 <body>
+<!--Hide or show -->
+    <?php
+        if(isset($_POST['registerButton'])) { // when the register button is pressed
+            echo '<script>
+                    $(document).ready(function() {
+                        $("#loginForm").hide();
+                        $("#registerForm").show();
+                    }); 
+                  </script>';
+        } else {
+            echo '<script>
+                    $(document).ready(function() {
+                        $("#loginForm").show();
+                        $("#registerForm").hide();
+                    }); 
+                  </script>';
+        }
+    ?>
+
     <div id="background">
         <div id="loginContainer">
             <div id="inputContainer">
