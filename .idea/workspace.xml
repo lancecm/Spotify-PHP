@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="45b67062-f026-4a79-a35f-55629446367c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/assets/css/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/register.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/register.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="635">
-              <caret line="138" column="4" selection-start-line="138" selection-start-column="4" selection-end-line="138" selection-end-column="4" />
+            <state relative-caret-position="575">
+              <caret line="140" column="22" selection-start-line="140" selection-start-column="22" selection-end-line="140" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -49,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+              <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -58,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/assets/js/register.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -103,8 +102,8 @@
     </servers>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="748" />
-    <option name="y" value="31" />
+    <option name="x" value="611" />
+    <option name="y" value="29" />
     <option name="width" value="1054" />
     <option name="height" value="819" />
   </component>
@@ -144,7 +143,7 @@
               <item name="Spotify" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="profile-pics" type="462c0819:PsiDirectoryNode" />
+              <item name="icons" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Spotify" type="b2602c69:ProjectViewProjectNode" />
@@ -185,6 +184,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images/icons" />
       <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -216,15 +216,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558859115608</updated>
-      <workItem from="1558859117860" duration="18683000" />
+      <workItem from="1558859117860" duration="19331000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18683000" />
+    <option name="totallyTimeSpent" value="19331000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="748" y="31" width="1054" height="819" extended-state="0" />
+    <frame x="611" y="29" width="1054" height="819" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -338,21 +338,21 @@
     <entry file="file://$PROJECT_DIR$/assets/js/register.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/register.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
-          <caret line="138" column="4" selection-start-line="138" selection-start-column="4" selection-end-line="138" selection-end-column="4" />
+        <state relative-caret-position="575">
+          <caret line="140" column="22" selection-start-line="140" selection-start-column="22" selection-end-line="140" selection-end-column="22" />
         </state>
       </provider>
     </entry>
