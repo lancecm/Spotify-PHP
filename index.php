@@ -28,7 +28,9 @@
 
                     <div class="group">
                         <div class="navItem">
-                            <a href="search.php" class="navItemLink">Search</a>
+                            <a href="search.php" class="navItemLink">Search
+                                <img class="logo" src="assets/images/icons/search.png" alt="search">
+                            </a>
                         </div>
                     </div>
 
