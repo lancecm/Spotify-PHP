@@ -33,8 +33,9 @@ html, body {
     align-items: center;
 }
 
-#nowPlayingCenter .content {
+#nowPlayingBar .content {
     width: 100%;
+    height: 57px;
 }
 
 .playerControls .buttons {
@@ -97,5 +98,13 @@ html, body {
 
 .playbackBar .progressBar {
     margin-top: 3px;
+}
+
+.albumLink .albumArtwork {
+    max-width: 57px;
+    margin-right: 15px;
+    float: left;
+    background-size: cover;
+    height: 100%;
 }
 

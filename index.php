@@ -19,8 +19,13 @@
 <body>
     <div id="nowPlayingBarContainer">
         <div id="nowPlayingBar">
-            <div id="nowPlayingLeft">
 
+            <div id="nowPlayingLeft">
+                <div class="content">
+                    <span class="albumLink">
+                        <img class="albumArtwork" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgF7mH7yaynjt7b-BnPXnqhCfD9kM4j3lyzkzk1fp2j9ZCJaTJ">
+                    </span>
+                </div>
             </div>
 
             <div id="nowPlayingCenter">
