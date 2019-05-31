@@ -21,11 +21,10 @@
 
         <div id="topContainer">
             <?php include("includes/navBarContainer.php"); ?>
-        </div>
+            <div id="mainViewContainer">
+                <div id="mainContent">
 
-        <div id="mainViewContainer">
-            <div id="mainContent">
-
+                </div>
             </div>
         </div>
 
