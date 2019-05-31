@@ -11,6 +11,12 @@
     color: #fff;
 }
 
+body {
+    background-color: #181818;
+    min-width: 720px;
+    font-size: 14px;
+}
+
 html, body {
     padding: 0;
     margin: 0;
@@ -197,4 +203,14 @@ html, body {
     right: 0;
     top: 6px;
     width: 25px;
+}
+
+#mainViewContainer {
+    margin-left: 200px;
+    padding-bottom: 90px;
+    width: calc(100% - 200px);
+}
+
+#mainContent {
+    padding: 0 20px;
 }

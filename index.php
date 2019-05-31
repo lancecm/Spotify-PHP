@@ -23,6 +23,12 @@
             <?php include("includes/navBarContainer.php"); ?>
         </div>
 
+        <div id="mainViewContainer">
+            <div id="mainContent">
+
+            </div>
+        </div>
+
         <div id="nowPlayingBarContainer">
             <?php include("includes/nowPlayingBar.php"); ?>
         </div>
