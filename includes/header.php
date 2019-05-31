@@ -1,6 +1,6 @@
 <?php
 include("includes/config.php");
-
+include("includes/classes/Artist.php");
 // Log out manually
 //    session_destroy();
 
