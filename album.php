@@ -31,11 +31,16 @@
             foreach ($songIdArray as $songId) {
 
                 $albumSong = new Song($con, $songId);
-                $albumArtist = $albumSong->getArtist();
+                $songArtist = $albumSong->getArtist();
                 echo "<li class='trackListRow'>
                         <div class='trackCount'>
                             <img class='play' src='assets/images/icons/play-white.png'>
-                            <span class='trackNumber'>i</span>
+                            <span class='trackNumber'>$i</span>
+                        </div>
+                        
+                        <div class='trackInfo'>
+                            <span class='trackName'>".$albumSong->getTitle()."</span>
+                            <span class='artistName'>".$songArtist->getName()."</span>
                         </div>
                       </li>";
                 $i++;
