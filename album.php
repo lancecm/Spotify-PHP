@@ -17,7 +17,8 @@
     
     <div class="rightSection">
         <h2><?php echo $album->getTitle(); ?></h2>
-        <span>By <?php echo $album->getArtist()->getName(); ?></span>
+        <p>By <?php echo $album->getArtist()->getName(); ?></p>
+        <p><?php echo $album->getNumberOfSongs(); ?></p>
     </div>
 </div>
 

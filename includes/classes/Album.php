@@ -38,5 +38,10 @@ class Album {
     public function getArtist() {
         return new Artist($this->con, $this->artistId);
     }
+
+    public function getNumberOfSongs() {
+        $query = mysqli_query($this->con, "SELECT * from songs WHERE id = '$this->id'");
+        return mysqli_num_rows($query);
+    }
 }
 ?>
