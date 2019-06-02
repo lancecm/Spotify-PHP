@@ -11,7 +11,7 @@
 ?>
 
 <div class="entityInfo">
-    <div class="LeftSection">
+    <div class="leftSection">
         <img src="<?php echo $album->getArtworkPath(); ?>">
     </div>
     
