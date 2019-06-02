@@ -47,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="308" column="7" lean-forward="true" selection-start-line="308" selection-start-column="7" selection-end-line="308" selection-end-column="7" />
+            <state relative-caret-position="381">
+              <caret line="356" column="24" selection-start-line="356" selection-start-column="24" selection-end-line="356" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -111,8 +111,8 @@
     </servers>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="700" />
-    <option name="y" value="96" />
+    <option name="x" value="1092" />
+    <option name="y" value="87" />
     <option name="width" value="1157" />
     <option name="height" value="819" />
   </component>
@@ -203,23 +203,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558859115608</updated>
-      <workItem from="1558859117860" duration="41410000" />
+      <workItem from="1558859117860" duration="42151000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41410000" />
+    <option name="totallyTimeSpent" value="42151000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="700" y="96" width="1157" height="819" extended-state="0" />
+    <frame x="1092" y="87" width="1157" height="819" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16860987" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16860987" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" visible="true" weight="0.3287483" />
+      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.3287483" />
       <window_info anchor="bottom" id="Terminal" weight="0.3287483" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -417,8 +417,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="308" column="7" lean-forward="true" selection-start-line="308" selection-start-column="7" selection-end-line="308" selection-end-column="7" />
+        <state relative-caret-position="381">
+          <caret line="356" column="24" selection-start-line="356" selection-start-column="24" selection-end-line="356" selection-end-column="24" />
         </state>
       </provider>
     </entry>
