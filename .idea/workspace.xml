@@ -29,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/album.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+            <state relative-caret-position="253">
+              <caret line="34" column="45" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -47,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="286" column="1" selection-start-line="286" selection-start-column="1" selection-end-line="286" selection-end-column="1" />
+            <state relative-caret-position="246">
+              <caret line="308" column="7" lean-forward="true" selection-start-line="308" selection-start-column="7" selection-end-line="308" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -203,12 +203,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558859115608</updated>
-      <workItem from="1558859117860" duration="40818000" />
+      <workItem from="1558859117860" duration="41410000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40818000" />
+    <option name="totallyTimeSpent" value="41410000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="700" y="96" width="1157" height="819" extended-state="0" />
@@ -410,15 +410,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/album.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        <state relative-caret-position="253">
+          <caret line="34" column="45" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="286" column="1" selection-start-line="286" selection-start-column="1" selection-end-line="286" selection-end-column="1" />
+        <state relative-caret-position="246">
+          <caret line="308" column="7" lean-forward="true" selection-start-line="308" selection-start-column="7" selection-end-line="308" selection-end-column="7" />
         </state>
       </provider>
     </entry>
